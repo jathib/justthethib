@@ -10,7 +10,7 @@ justify-content:center;
 height:100vh;
 margin:0;
 padding:0;
-max-width:100%;
+max-width:1440 px;
 
 }
 h1 {
@@ -32,3 +32,36 @@ h1 {
     padding: 0;
     max-width: 100%;
 }
+
+.exercises {
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+
+  
+    
+   
+    
+}
+
+.card {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    max-width:400px;
+    padding: 0 50px;
+ 
+        
+   
+   
+}
+
+.space-top-24 {
+   margin-top:24px;
+}
+
+.space-top-48 {
+    margin-top:48px;
+ }
+ 
