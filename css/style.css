@@ -1,5 +1,5 @@
 .intro {
-color:#ce2f13;
+color:#ceac13;
 }
 
 .wrapper {
@@ -8,4 +8,27 @@ flex-direction:column;
 align-items:center;
 justify-content:center;
 height:100vh;
+margin:0;
+padding:0;
+max-width:100%;
+
+}
+h1 {
+    font-size: 4rem;
+}
+.container p {
+    color:white;
+    font-size: 1.25rem;
+}
+
+.background-image{ 
+    background-color: rgba(16, 0, 122, 0.766); /* Solid yellow with transparency */
+    background-image: url('../images/homepage-hero.webp'); /* Background image */
+    background-blend-mode: overlay; /* Ensure the color blends over the image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
 }
